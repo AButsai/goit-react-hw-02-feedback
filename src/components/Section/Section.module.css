@@ -1,0 +1,17 @@
+.sectionBlock {
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 25px;
+}
+
+.buttons {
+  margin-bottom: 25px;
+}
+
+.statisticsTitle {
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 2em;
+}

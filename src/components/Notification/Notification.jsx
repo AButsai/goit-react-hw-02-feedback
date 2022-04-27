@@ -10,4 +10,4 @@ Notification.propTypes = {
   message: PropTypes.string.isRequired,
 };
 
-export { Notification };
+export default Notification;

@@ -14,10 +14,10 @@ const FeedbackOptions = props => {
 
   return (
     <div className={s.btnWrap}>
-      {options.map((name, index) => {
+      {options.map(name => {
         return (
           <button
-            key={index} // Знаю что так делать нельзя но это чтобы не ругался React так как нет id;
+            key={name}
             className={s.button}
             type="button"
             onClick={() => {
